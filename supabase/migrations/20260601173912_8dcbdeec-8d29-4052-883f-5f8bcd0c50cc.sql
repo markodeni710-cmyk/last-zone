@@ -1,0 +1,20 @@
+
+REVOKE EXECUTE ON FUNCTION public.check_tournament_rank() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.check_tournament_registration_open() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.check_tournament_trophy_budget() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.prevent_finished_tournament_delete() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.validate_tournament_result() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.expire_pending_squad_applications() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.cleanup_completed_squad_listings() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.cleanup_expired_messages() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.cleanup_server_on_delete() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.dm_after_insert() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.dm_before_insert() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.dm_check_blocked() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.generate_server_code() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.handle_clip_like() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.handle_new_server() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.handle_new_user() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.handle_server_member_change() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.sync_squad_listing_completion() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.update_updated_at_column() FROM anon, authenticated, public;

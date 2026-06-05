@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+.output/
+.vinxi/
+.tanstack/**
+.nitro/
+
+# Environment / local files
+*.local
+.env
+.env.*
+.dev.vars
+
+# Wrangler / Cloudflare
+.wrangler/
+
+# Android / Gradle
+.gradle/
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+local.properties
+
+# Android outputs
+*.apk
+*.aab
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

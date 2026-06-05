@@ -1,0 +1,1 @@
+ALTER TABLE public.squad_applications ALTER COLUMN expires_at SET DEFAULT (now() + interval '15 minutes');

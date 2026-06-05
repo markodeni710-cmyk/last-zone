@@ -1,0 +1,1 @@
+ALTER TABLE public.voice_room_participants REPLICA IDENTITY FULL;

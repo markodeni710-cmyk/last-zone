@@ -1,0 +1,1 @@
+ALTER TABLE public.dm_calls ADD COLUMN IF NOT EXISTS kind text NOT NULL DEFAULT 'audio' CHECK (kind IN ('audio','video'));

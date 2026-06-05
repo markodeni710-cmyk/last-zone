@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.cleanup_expired_messages() FROM PUBLIC, anon, authenticated;

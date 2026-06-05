@@ -1,0 +1,1 @@
+UPDATE public.profiles SET username = 'moniromran' WHERE id = 'fcd2e2c7-9673-4adc-b1d0-d4fa27aff1d8' AND username = 'moniromra';

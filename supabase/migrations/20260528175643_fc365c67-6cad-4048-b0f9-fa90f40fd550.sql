@@ -1,0 +1,3 @@
+ALTER TABLE public.messages ADD CONSTRAINT messages_profile_fkey FOREIGN KEY (user_id) REFERENCES public.profiles(id) ON DELETE CASCADE;
+ALTER TABLE public.squad_listings ADD CONSTRAINT squad_listings_profile_fkey FOREIGN KEY (user_id) REFERENCES public.profiles(id) ON DELETE CASCADE;
+ALTER TABLE public.streams ADD CONSTRAINT streams_profile_fkey FOREIGN KEY (user_id) REFERENCES public.profiles(id) ON DELETE CASCADE;

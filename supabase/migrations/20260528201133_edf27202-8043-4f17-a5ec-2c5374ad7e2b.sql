@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.handle_clip_like() FROM anon, authenticated, public;
